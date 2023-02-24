@@ -1,0 +1,40 @@
+.draggable-task-items {
+    background-color: #eef2f9;
+    color: #7d7d9a;
+    min-width: inherit;
+    min-height: 15vh;
+    margin-top: 24px;
+    padding-right: 4px;
+    padding-left: 4px;
+}
+
+.draggable-task-items:hover {
+    cursor: grab;
+}
+
+.low-priority {
+    height: max-content;
+    width: max-content;
+    background-color: #7ab0f9;
+    color: white;
+    border-radius: 4px;
+    margin-left: 12px;
+}
+
+.medium-priority {
+    height: max-content;
+    width: max-content;
+    background-color: #80d5d6;
+    color: white;
+    border-radius: 4px;
+    margin-left: 12px;
+}
+
+.high-priority {
+    height: max-content;
+    width: max-content;
+    background-color: #e9adc7;
+    color: white;
+    border-radius: 4px;
+    margin-left: 12px;
+}

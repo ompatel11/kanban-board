@@ -1,38 +1,40 @@
-.App {
+.Tasks {
+  margin-top: 5%;
+  margin-left: 4%;
+  margin-right: 4%;
+}
+
+.drop-zone {
+  background-color: #f6f8fc;
+  border-radius: 4px;
+  min-height: 40vh;
+  padding-bottom: 25px;
+}
+
+.heading {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.drop-zone {
+  box-shadow: 5px 5px 16px -5px #000000;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.drop-zone:only-child() {
+  padding-bottom: 25px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.Tasks Row {
+  height: max-content;
 }
 
-.App-link {
-  color: #61dafb;
+.design-drop-zone {
+  border-top: 2px solid purple;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.development-drop-zone {
+  border-top: 2px solid yellow;
+}
+
+.deploying-drop-zone {
+  border-top: 2px solid green;
 }
